@@ -9,7 +9,7 @@
 // IDECodeSnippetVersion: 2
 + (instancetype)shared<#Class name#> {
     
-    static <#Class name#> *shared<#Class name#> = nil;
+    static <#Class name#> *sharedInstance = nil;
     if (sharedConnect) {
        return sharedConnect;
     } else {
