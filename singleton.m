@@ -16,7 +16,7 @@
         static dispatch_once_t onceToken;
         dispatch_once(&onceToken, ^{
             sharedInstance = [self alloc];
-            sharedInstance = [sharedConnect init];
+            sharedInstance = [sharedInstance init];
         });
         return sharedInstance;
     }
