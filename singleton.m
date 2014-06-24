@@ -10,14 +10,14 @@
 + (instancetype)shared<#Class name#> {
     
     static <#Class name#> *sharedInstance = nil;
-    if (sharedConnect) {
-       return sharedConnect;
+    if (sharedInstance) {
+       return sharedInstance;
     } else {
         static dispatch_once_t onceToken;
         dispatch_once(&onceToken, ^{
-            sharedConnect = [self alloc];
-            sharedConnect = [sharedConnect init];
+            sharedInstance = [self alloc];
+            sharedInstance = [sharedConnect init];
         });
-        return sharedConnect;
+        return sharedInstance;
     }
 }
