@@ -15,7 +15,7 @@
     } else {
         static dispatch_once_t onceToken;
         dispatch_once(&onceToken, ^{
-            sharedConnect = [CLConnect alloc];
+            sharedConnect = [self alloc];
             sharedConnect = [sharedConnect init];
         });
         return sharedConnect;
