@@ -7,7 +7,7 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-+ (instancetype)shared {
++ (instancetype)shared<#ClassN {
     
     static CLConnect *sharedConnect = nil;
     if (sharedConnect) {
