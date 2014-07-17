@@ -11,7 +11,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    <#CellClass#> *cell = (<#CellClass>*)[tableView dequeueReusableCellWithIdentifier:<#(NSString *)#> forIndexPath:<#(NSIndexPath *)#>];
+    <#CellClass#> *cell = (<#CellClass#> *)[tableView dequeueReusableCellWithIdentifier:<#(NSString *)#> forIndexPath:<#(NSIndexPath *)#>];
     return cell;
 }
 
