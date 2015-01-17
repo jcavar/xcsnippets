@@ -6,5 +6,5 @@
 // IDECodeSnippetIdentifier: 5CFEAD3D-566C-4529-B4F3-76B29767C109
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Swift
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
     // MARK - view lifecycle methods
