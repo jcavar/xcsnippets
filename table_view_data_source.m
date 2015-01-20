@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: 591DC9EE-B420-4A45-8ECA-26D43E8FEF97
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Swift
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
     // MARK - UITableViewDataSource methods
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
