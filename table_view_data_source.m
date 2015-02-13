@@ -7,7 +7,7 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Swift
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-    // MARK - UITableViewDataSource methods
+    // MARK: UITableViewDataSource methods
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
