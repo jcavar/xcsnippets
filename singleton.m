@@ -7,7 +7,7 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Swift
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-    class var sharedInstance : <#y {
+    class var sharedInstance : <#type#> {
         struct Static {
             static let instance : PlistManager = PlistManager()
         }
