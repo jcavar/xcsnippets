@@ -9,7 +9,7 @@
 // IDECodeSnippetVersion: 0
     class var sharedInstance : <#type#> {
         struct Static {
-            static let instance : PlistManager = PlistManager()
+            static let instance : <#type#> = <#type#>()
         }
         return Static.instance
     }
